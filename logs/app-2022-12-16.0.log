@@ -1,0 +1,55 @@
+2022-12-16T17:40:08.040+05:00  INFO 17940 --- [main] com.example.KunUz1Application            : Starting KunUz1Application using Java 18.0.2 with PID 17940 (C:\Users\Acer\Desktop\kun_uz1\kun_uz1\target\classes started by Acer in C:\Users\Acer\Desktop\kun_uz1\kun_uz1)
+2022-12-16T17:40:08.067+05:00 DEBUG 17940 --- [main] com.example.KunUz1Application            : Running with Spring Boot v3.0.0, Spring v6.0.2
+2022-12-16T17:40:08.068+05:00  INFO 17940 --- [main] com.example.KunUz1Application            : The following 1 profile is active: "dev"
+2022-12-16T17:40:09.968+05:00  INFO 17940 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-16T17:40:10.042+05:00  INFO 17940 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 8 JPA repository interfaces.
+2022-12-16T17:40:10.636+05:00  INFO 17940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-12-16T17:40:10.647+05:00  INFO 17940 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-16T17:40:10.647+05:00  INFO 17940 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-16T17:40:10.774+05:00  INFO 17940 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-16T17:40:10.775+05:00  INFO 17940 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2624 ms
+2022-12-16T17:40:10.823+05:00 DEBUG 17940 --- [main] com.example.config.TokenFilter           : Filter 'tokenFilter' configured for use
+2022-12-16T17:40:10.939+05:00  INFO 17940 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-16T17:40:11.000+05:00  INFO 17940 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-16T17:40:11.180+05:00  WARN 17940 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-16T17:40:11.306+05:00  INFO 17940 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-16T17:40:11.600+05:00  INFO 17940 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f07d414
+2022-12-16T17:40:11.603+05:00  INFO 17940 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-16T17:40:11.705+05:00  INFO 17940 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-16T17:40:13.256+05:00  INFO 17940 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-16T17:40:13.269+05:00  INFO 17940 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-16T17:40:14.343+05:00  WARN 17940 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-16T17:40:15.189+05:00  INFO 17940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-12-16T17:40:15.205+05:00  INFO 17940 --- [main] com.example.KunUz1Application            : Started KunUz1Application in 7.85 seconds (process running for 9.308)
+2022-12-16T17:53:42.533+05:00  INFO 17940 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-16T17:53:42.540+05:00  INFO 17940 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-16T17:53:42.546+05:00  INFO 17940 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-16T17:53:49.263+05:00  INFO 6816 --- [main] com.example.KunUz1Application            : Starting KunUz1Application using Java 18.0.2 with PID 6816 (C:\Users\Acer\Desktop\kun_uz1\kun_uz1\target\classes started by Acer in C:\Users\Acer\Desktop\kun_uz1\kun_uz1)
+2022-12-16T17:53:49.275+05:00 DEBUG 6816 --- [main] com.example.KunUz1Application            : Running with Spring Boot v3.0.0, Spring v6.0.2
+2022-12-16T17:53:49.275+05:00  INFO 6816 --- [main] com.example.KunUz1Application            : The following 1 profile is active: "dev"
+2022-12-16T17:53:50.231+05:00  INFO 6816 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-16T17:53:50.298+05:00  INFO 6816 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 8 JPA repository interfaces.
+2022-12-16T17:53:50.869+05:00  INFO 6816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-12-16T17:53:50.877+05:00  INFO 6816 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-16T17:53:50.877+05:00  INFO 6816 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-16T17:53:50.980+05:00  INFO 6816 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-16T17:53:50.980+05:00  INFO 6816 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1665 ms
+2022-12-16T17:53:51.023+05:00 DEBUG 6816 --- [main] com.example.config.TokenFilter           : Filter 'tokenFilter' configured for use
+2022-12-16T17:53:51.142+05:00  INFO 6816 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-16T17:53:51.216+05:00  INFO 6816 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-16T17:53:51.393+05:00  WARN 6816 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-16T17:53:51.512+05:00  INFO 6816 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-16T17:53:51.696+05:00  INFO 6816 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5d7f1e59
+2022-12-16T17:53:51.699+05:00  INFO 6816 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-16T17:53:51.764+05:00  INFO 6816 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-16T17:53:53.190+05:00  INFO 6816 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-16T17:53:53.201+05:00  INFO 6816 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-16T17:53:54.122+05:00  WARN 6816 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-16T17:53:55.112+05:00  INFO 6816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-12-16T17:53:55.134+05:00  INFO 6816 --- [main] com.example.KunUz1Application            : Started KunUz1Application in 6.307 seconds (process running for 7.013)
+2022-12-16T17:53:59.185+05:00  INFO 6816 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-16T17:53:59.186+05:00  INFO 6816 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-16T17:53:59.188+05:00  INFO 6816 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-12-16T18:09:36.492+05:00  INFO 6816 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-16T18:09:36.498+05:00  INFO 6816 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-16T18:09:36.506+05:00  INFO 6816 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

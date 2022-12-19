@@ -1,0 +1,35 @@
+### articleType save
+POST localhost:8081/articleType/sec/save
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzA3NjMxOTUsImlkIjo5LCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzA4NDk1OTUsImlzcyI6Ikd1bG9tIn0.UmmGOjPVEG9HsbAld01g653v0sJ0WI20Wx1X7VI4Y5k
+
+{
+  "key": "1000",
+  "name_uz":"O'zbek",
+  "name_ru": "Узбек",
+  "name_en":"Uzbek"
+}
+
+### update aarticleType
+PUT localhost:8081/articleType/sec/update/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzAwNTg0NjMsImlkIjo0LCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzAwNjcxMDMsImlzcyI6Ikd1bG9tIn0.2EeV5__OxlIBMH8AM-Ej2TkqFcx6p6X1GXylWQs7a9E
+
+{
+  "key": "1001",
+  "name_uz":"O'zbekiston",
+  "name_ru": "Узбекистон",
+  "name_en":"Uzbekistan"
+}
+### delete
+DELETE localhost:8081/articleType/sec/delete/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzAwNTg0NjMsImlkIjo0LCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzAwNjcxMDMsImlzcyI6Ikd1bG9tIn0.2EeV5__OxlIBMH8AM-Ej2TkqFcx6p6X1GXylWQs7a9E
+###
+GET localhost:8081/articleType/sec/get?page=0&size=3
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzAwNzk0NTcsImlkIjo0LCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzAxNjU4NTcsImlzcyI6Ikd1bG9tIn0.wL5BC7sllD0wUrRATdBfHcWLLsmPDAHD2dmu2oi9tJs
+### get by language
+GET localhost:8081/articleType/get?language=uz
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzAwNzk0NTcsImlkIjo0LCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzAxNjU4NTcsImlzcyI6Ikd1bG9tIn0.wL5BC7sllD0wUrRATdBfHcWLLsmPDAHD2dmu2oi9tJs

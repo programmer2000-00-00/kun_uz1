@@ -1,0 +1,35 @@
+### save
+POST localhost:8081/catagory/sec/save
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzA2NzgzMDcsImlkIjo5LCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzA3NjQ3MDcsImlzcyI6Ikd1bG9tIn0.BJ19h-ppMzxAm25OFNsZ4ljOqbXUp72ontQ_D3neN3E
+
+{
+  "key": "1000",
+  "name_uz":"Sport",
+  "name_ru": "спорт",
+  "name_eng":"Sport"
+}
+
+### update
+PUT localhost:8081/catagory/sec/update/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzAxMzIyNTQsImlkIjo0LCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzAyMTg2NTQsImlzcyI6Ikd1bG9tIn0.rGvNFzcqwBInentRpZSwhWOpaunDO4QazKmR4xyePyI
+
+{
+  "key": "1007",
+  "name_uz":"Sport Yangiliklari",
+  "name_ru": "спорт новости",
+  "name_eng":"Sport News"
+}
+
+### delete
+DELETE localhost:8081/catagory/sec/delete/6
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzAxMzIyNTQsImlkIjo0LCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzAyMTg2NTQsImlzcyI6Ikd1bG9tIn0.rGvNFzcqwBInentRpZSwhWOpaunDO4QazKmR4xyePyI
+### get
+GET  localhost:8081/catagory/sec/get
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzAxMzIyNTQsImlkIjo0LCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzAyMTg2NTQsImlzcyI6Ikd1bG9tIn0.rGvNFzcqwBInentRpZSwhWOpaunDO4QazKmR4xyePyI
+
+###
+GET localhost:8081/catagory/get/language?language=UZ&key=1000

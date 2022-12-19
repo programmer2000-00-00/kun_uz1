@@ -1,0 +1,14 @@
+GET localhost:8081/email/get?email=urolovg2000@gmail.com
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzA1ODA0NDksImlkIjo5LCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzA2NjY4NDksImlzcyI6Ikd1bG9tIn0.p_xRb8T-G6Fy36q9aYI5oFv4ZsdjLgQFnTcPbnNOPaI
+###
+#dd-MM-yyyy HH:mm:ss
+GET localhost:8081/email/get/data?data=2022-12-06 00:00
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzA2MDI3NzIsImlkIjo5LCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzA2ODkxNzIsImlzcyI6Ikd1bG9tIn0.JCDxu1kXmbA-OmqR2u_NxYUQYRsXhugXJsifYaYWSSA
+###
+#dd-MM-yyyy HH:mm:ss
+GET localhost:8081/email/get/page?page=0&size=3
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzA2MDI3NzIsImlkIjo5LCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzA2ODkxNzIsImlzcyI6Ikd1bG9tIn0.JCDxu1kXmbA-OmqR2u_NxYUQYRsXhugXJsifYaYWSSA
+###

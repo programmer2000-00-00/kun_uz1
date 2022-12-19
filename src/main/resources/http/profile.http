@@ -1,0 +1,54 @@
+### profile save
+POST localhost:8081/profile/save
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzA2NzE3NTAsImlkIjo5LCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzA3NTgxNTAsImlzcyI6Ikd1bG9tIn0.v7sQ31puVHyMbxPmifCYQW1ggiJPNkxypNXemUNHhyA
+
+{
+  "name": "MuhammadSodiq",
+  "surname":"Towpolatov",
+  "phone": "900055005",
+  "password":"1234",
+  "role": "PUBLISHER"
+}
+### profile update
+PUT localhost:8081/profile/update/admin/3
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzAwNDMxODIsImlkIjo0LCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzAwNTE4MjIsImlzcyI6Ikd1bG9tIn0.HpBNoCvxNw7rgfN1Lpltw4IMtI04T_b1DGwd0kkIKZs
+
+
+{
+  "name": "Doniyorjon",
+  "surname":"Towpolatovv",
+  "phone": "935092755",
+  "password":"1234",
+  "role": "PUBLISHER",
+  "visible": "TRUE",
+  "status": "ACTIVE"
+}
+### profile update any
+PUT localhost:8081/profile/update/any
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzAwNDgyMDAsImlkIjozLCJyb2xlIjoiUFVCTElTSEVSIiwiZXhwIjoxNjcwMDU2ODQwLCJpc3MiOiJHdWxvbSJ9.TmpmiquQr9nUxkVzAb6tsGRepuMNacgHD1wmYNkfrVs
+
+{
+  "name": "Nilu",
+  "surname":"Towpolatova",
+  "phone": "935092755",
+  "password":"1234"
+}
+###get list
+GET localhost:8081/profile/list?page=0&size=3
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzAwNDMxODIsImlkIjo0LCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzAwNTE4MjIsImlzcyI6Ikd1bG9tIn0.HpBNoCvxNw7rgfN1Lpltw4IMtI04T_b1DGwd0kkIKZs
+### delete by id
+DELETE localhost:8081/profile/delete/8
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzAxNTIyNTIsImlkIjo0LCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzAyMzg2NTIsImlzcyI6Ikd1bG9tIn0.TCVYpqAjSSuzVYaOPW5ogqjQBBmVfhEAy5CjSMVVMG0
+
+###
+### Profile Filter
+POST localhost:8082/profile/filter?page=0&size=10
+Content-Type: application/json
+
+{
+  "surname": "Urolov"
+}

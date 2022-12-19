@@ -1,0 +1,19 @@
+###
+POST localhost:8082/comment/save?language=RU
+Content-Type: application/json
+
+{
+  "content": "Juda zor",
+  "articleId": "3570e25f-7c12-4827-a59d-a1e08a738877",
+  "replyId": "6"
+
+}
+
+###
+PUT localhost:8082/comment/update?id=6&language=UZ
+Content-Type: application/json
+
+{
+  "content": "Malades",
+  "articleId": "05a5399e-dbbb-42ae-bcdd-6e1205b9ce12"
+}

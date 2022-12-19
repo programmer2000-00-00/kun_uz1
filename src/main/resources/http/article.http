@@ -1,0 +1,76 @@
+### article save
+POST localhost:8081/article/sec/save
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzA3Njc5MDIsImlkIjoxMCwicm9sZSI6Ik1PREVSQVRPUiIsImV4cCI6MTY3MDg1NDMwMiwiaXNzIjoiR3Vsb20ifQ.Ss2wbpWowOsBo-vZlRvujMset3WqY8v6Lr4qnK4Ecu4
+
+{
+  "title": "Jahon Uruwidir",
+  "description":"3-chi johon uruwi",
+  "content":"Nma bolsa ham tinchlik bolsin",
+  "sharedCount": 0,
+  "imageId":"b6010dc4-b17b-4af3-ba49-4896274f41a1",
+  "regionId":"1",
+  "catagoryId":"1",
+  "articleTypeId" : "1"
+}
+
+### article save
+PUT localhost:8081/article/sec/update/2323d10b-b82e-4c94-8c2c-5ec9f01223e1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzA2ODM0ODgsImlkIjoxMCwicm9sZSI6Ik1PREVSQVRPUiIsImV4cCI6MTY3MDc2OTg4OCwiaXNzIjoiR3Vsb20ifQ.RRalhfhh1eWkZzW13bgt4R0udvz-IFEPMeei6-NwI4U
+
+{
+  "title": "WORLD VAR",
+  "description":"3-chi johon uruwi",
+  "content":"Nma bolsa ham tinchlik bolsin",
+  "shared_count": 0,
+  "imageId":"b6010dc4-b17b-4af3-ba49-4896274f41a1",
+  "regionId":"1",
+  "catagoryId":"1"
+}
+### delete
+DELETE localhost:8081/article/sec/delete/5c6c6025-60ab-4e0f-a58d-97a2fd4e5089
+ontent-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzA2ODM0ODgsImlkIjoxMCwicm9sZSI6Ik1PREVSQVRPUiIsImV4cCI6MTY3MDc2OTg4OCwiaXNzIjoiR3Vsb20ifQ.RRalhfhh1eWkZzW13bgt4R0udvz-IFEPMeei6-NwI4U
+### article save
+PUT localhost:8081/article/sec/status/5c6c6025-60ab-4e0f-a58d-97a2fd4e5089
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzA2OTk0MDUsImlkIjoxMSwicm9sZSI6IlBVQkxJU0hFUiIsImV4cCI6MTY3MDc4NTgwNSwiaXNzIjoiR3Vsb20ifQ.Z2RM-hmh7LDh9bvFwTfRJBAPjbgOHpMjPOTP7aC7JgY
+###
+GET localhost:8081/article/get/1
+###
+GET localhost:8082/article/get/list/1
+Content-Type: application/json
+
+[
+  "3570e25f-7c12-4827-a59d-a1e08a738877",
+  "1fd1d9ce-b5aa-4c20-aa53-92f68d917793",
+  "2323d10b-b82e-4c94-8c2c-5ec9f01223e1"
+]
+###
+GET localhost:8082/article/get/lang?id=3570e25f-7c12-4827-a59de-a1e08a738877&lang=ENG
+###
+GET localhost:8082/article/get/last4?typeId=1&id=311e8869-1fb4-49ff-a1a1-5b37218a861f&lang=RU
+###
+GET localhost:8082/article/get/last4/most?lang=RU
+###
+GET localhost:8082/article/get/last/type/region?id=1&key=1001&language=RU
+###
+GET localhost:8082/article/get/key?key=1001&page=0&size=2
+###
+GET localhost:8082/article/get/catagory/key?key=1000&language=RU
+###
+GET localhost:8082/article/get/catagory/key/page?key=10011&page=0&size=2&language=RU
+###
+PUT localhost:8082/article/update/view/count?articleId=1fd1d9ce-b5aa-4c20-aa53-92f68d917793&language=UZ
+###
+PUT localhost:8082/article/update/share/count?articleId=1fd1d9ce-b5aa-4c20-aa53-92f68d917q793&language=UZ
+###
+POST localhost:8082/article/sec/filter?page=0&size=10
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzEwODUzOTksImlkIjoxMSwicm9sZSI6IlBVQkxJU0hFUiIsImV4cCI6MTY3MTE3MTc5OSwiaXNzIjoiR3Vsb20ifQ.UsdyecDIbj3TkScFf4IGRyLYxMQmhhBjL9KaaR_6tr8
+
+{
+  "fromDate": "2022-12-11"
+}
+###

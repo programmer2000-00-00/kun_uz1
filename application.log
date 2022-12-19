@@ -1,0 +1,29 @@
+2022-12-13T20:02:32.771+05:00  INFO 15528 --- [main] com.example.KunUz1Application            : Starting KunUz1Application using Java 18.0.2 with PID 15528 (C:\Users\Acer\Desktop\kun_uz1\kun_uz1\target\classes started by Acer in C:\Users\Acer\Desktop\kun_uz1\kun_uz1)
+2022-12-13T20:02:32.780+05:00 DEBUG 15528 --- [main] com.example.KunUz1Application            : Running with Spring Boot v3.0.0, Spring v6.0.2
+2022-12-13T20:02:32.780+05:00  INFO 15528 --- [main] com.example.KunUz1Application            : No active profile set, falling back to 1 default profile: "default"
+2022-12-13T20:02:33.336+05:00  INFO 15528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-13T20:02:33.402+05:00  INFO 15528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 7 JPA repository interfaces.
+2022-12-13T20:02:33.784+05:00  INFO 15528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-12-13T20:02:33.791+05:00  INFO 15528 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-13T20:02:33.791+05:00  INFO 15528 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-13T20:02:33.852+05:00  INFO 15528 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-13T20:02:33.852+05:00  INFO 15528 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1039 ms
+2022-12-13T20:02:33.891+05:00 DEBUG 15528 --- [main] com.example.config.TokenFilter           : Filter 'tokenFilter' configured for use
+2022-12-13T20:02:33.955+05:00  INFO 15528 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-13T20:02:33.984+05:00  INFO 15528 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-13T20:02:34.091+05:00  WARN 15528 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-13T20:02:34.167+05:00  INFO 15528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-13T20:02:34.277+05:00  INFO 15528 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1de7f898
+2022-12-13T20:02:34.278+05:00  INFO 15528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-13T20:02:34.312+05:00  INFO 15528 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-13T20:02:34.976+05:00  INFO 15528 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-13T20:02:34.981+05:00  INFO 15528 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-13T20:02:35.529+05:00  WARN 15528 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-13T20:02:36.045+05:00  INFO 15528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-12-13T20:02:36.052+05:00  INFO 15528 --- [main] com.example.KunUz1Application            : Started KunUz1Application in 3.608 seconds (process running for 4.003)
+2022-12-13T20:03:08.671+05:00  INFO 15528 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-13T20:03:08.672+05:00  INFO 15528 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-13T20:03:08.673+05:00  INFO 15528 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-12-13T20:03:53.124+05:00  INFO 15528 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-13T20:03:53.126+05:00  INFO 15528 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-13T20:03:53.128+05:00  INFO 15528 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -1,0 +1,32 @@
+### USER REGISTR
+POST localhost:8081/auth
+Content-Type: application/json
+
+{
+  "name": "Kamol",
+  "surname": "Urolov",
+  "phone": "935155909",
+  "password":"1234"
+}
+
+### login
+POST localhost:8082/auth/login
+Content-Type: application/json
+Accept-Language:ENG
+
+{
+  "phone":"900055005",
+  "password":"1234"
+}
+### Registration
+POST localhost:8081/auth/registration
+Content-Type: application/json
+
+{
+
+  "name": "Kamol",
+  "surname": "Urolov",
+  "phone": "995550457",
+  "password": "12345",
+  "email":"doniyortoshpulatov25@gmail.com"
+}

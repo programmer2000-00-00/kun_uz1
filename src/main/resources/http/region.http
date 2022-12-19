@@ -1,0 +1,36 @@
+### region save
+POST localhost:8081/region/sec/save
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzA2NzgzMDcsImlkIjo5LCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzA3NjQ3MDcsImlzcyI6Ikd1bG9tIn0.BJ19h-ppMzxAm25OFNsZ4ljOqbXUp72ontQ_D3neN3E
+
+{
+  "key": "1001",
+  "name_uz":"Qarshi",
+  "name_ru": "карши",
+  "name_eng":"Karshi"
+}
+
+### update
+PUT localhost:8081/region/sec/update/2
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzAxMjU2NTEsImlkIjo0LCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzAyMTIwNTEsImlzcyI6Ikd1bG9tIn0.VlPeqVDycOT4LJHrKGoNmsn5LCIjOnbbJLusBsi-A60
+
+{
+  "key": "1001",
+  "name_uz":"Toshkent",
+  "name_ru": "Ташкент",
+  "name_eng":"Tashkent"
+}
+### delete
+DELETE localhost:8081/region/sec/delete/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzAxMjU2NTEsImlkIjo0LCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzAyMTIwNTEsImlzcyI6Ikd1bG9tIn0.VlPeqVDycOT4LJHrKGoNmsn5LCIjOnbbJLusBsi-A60
+
+###getList
+GET localhost:8081/region/sec/get
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzAxMjU2NTEsImlkIjo0LCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzAyMTIwNTEsImlzcyI6Ikd1bG9tIn0.VlPeqVDycOT4LJHrKGoNmsn5LCIjOnbbJLusBsi-A60
+
+### getListByLan
+GET localhost:8082/region/get/language?lang=ENG&key=10012
+

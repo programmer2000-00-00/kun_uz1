@@ -1,0 +1,18 @@
+POST http://localhost:8082/attach/upload
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzA1ODA0NDksImlkIjo5LCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzA2NjY4NDksImlzcyI6Ikd1bG9tIn0.p_xRb8T-G6Fy36q9aYI5oFv4ZsdjLgQFnTcPbnNOPaI
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="20160924_213939.mp4"
+
+< D:\SHaxsiy narsalarim\Bobomning haj videolari\20160924_213939.mp4
+###
+GET http://localhost:8081/attach/upload/get?page=0&size=3
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzA1ODA0NDksImlkIjo5LCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzA2NjY4NDksImlzcyI6Ikd1bG9tIn0.p_xRb8T-G6Fy36q9aYI5oFv4ZsdjLgQFnTcPbnNOPaI
+
+
+###
+
+DELETE http://localhost:8081/attach/delete/729aba4d-4ad8-426a-a6c5-10b1f4932882
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzA1ODA0NDksImlkIjo5LCJyb2xlIjoiQURNSU4iLCJleHAiOjE2NzA2NjY4NDksImlzcyI6Ikd1bG9tIn0.p_xRb8T-G6Fy36q9aYI5oFv4ZsdjLgQFnTcPbnNOPaI
